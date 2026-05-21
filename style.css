@@ -107,8 +107,11 @@ header {
 }
 .logo span { color: var(--accent2); }
 .logo img {
-  height: calc(var(--nav-h) - 10px);
+  height: clamp(24px, 6vw, calc(var(--nav-h) - 10px));
+  width: auto;
+  display: block;
 }
+
 
 .nav-links {
   list-style: none;
