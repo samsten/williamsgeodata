@@ -107,7 +107,7 @@ header {
 }
 .logo span { color: var(--accent2); }
 .logo img {
-  height: clamp(32px, 6vw, calc(var(--nav-h) - 10px));
+  height: clamp(24px, 6vw, calc(var(--nav-h) - 5px));
   width: auto;
   display: block;
 }
