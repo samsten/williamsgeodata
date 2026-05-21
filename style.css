@@ -96,13 +96,19 @@ header {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* space between image and text */
+  color: var(--white); /* keep your original color */
   font-family: var(--font-display);
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--white);
   letter-spacing: -0.02em;
 }
 .logo span { color: var(--accent2); }
+.logo img {
+  height: calc(var(--nav-h) - 10px);
+}
 
 .nav-links {
   list-style: none;
