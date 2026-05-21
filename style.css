@@ -101,13 +101,13 @@ header {
   gap: 0.5rem; /* space between image and text */
   color: var(--white); /* keep your original color */
   font-family: var(--font-display);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
 .logo span { color: var(--accent2); }
 .logo img {
-  height: clamp(24px, 6vw, calc(var(--nav-h) - 5px));
+  height: clamp(48px, 6vw, calc(var(--nav-h) - 10px));
   width: auto;
   display: block;
 }
